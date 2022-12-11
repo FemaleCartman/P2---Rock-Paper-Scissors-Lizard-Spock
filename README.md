@@ -63,6 +63,7 @@ Why these images
 - Balsamiq why?
 - W3 why?
 - Favicon why?
+- Fontend Mentor
 
 ## Testing
 - HTML validator
@@ -101,5 +102,8 @@ The repository is possible to access through https://github.com/FemaleCartman/P2
 
 ## Credits
 
+**Fontend Mentor**
+Downloaded icons from their challenge hub. Inspiration for base  layout gathered from this challenge but made with my own unique code.
 
-Back to top button?
+
+[Back to Table of Contents](#Table-of-Contents)

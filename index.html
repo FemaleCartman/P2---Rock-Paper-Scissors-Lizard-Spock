@@ -6,19 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
     content="Rock, paper, scissors, lizard, spock is a fun game that will make you spend hours playing">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="rockpaperscissors\images\favicon.png">
+  <link rel="stylesheet" href="rockpaperscissors\css\style.css">
 
-  <title>Rock, Paper, Scissors, Lizard & Spock</title>
+  <title>Rock, Paper, Scissors, Lizard, Spock Game</title>
 </head>
 
 <body>
   <main>
-    <header>
+    <header class="game__header-box">
+      <div class="game__header">
+        <img class="game__header-img" src="rockpaperscissors\images\logo-bonus.svg"
+          alt="soon written Rock, paper, scissors, lizard, spock">
+        <div class="game__score-box">
+          <p class="game__score">score</p>
+          <p class="game__number">0</p>
+        </div>
+      </div>
     </header>
-  </main>
-  <footer>
-  </footer>
-  <script src="assets/js/script.js"></script>
-</body>
 
-</html>
+    <div class="try-container">
+      <p>Tries Left: <span id="tries"></span></p>
+      <p>Reach score of<span id="goal"></span> to win!</p>
+    </div>
+
+    <script src="rockpaperscissors\js\script.js"></script>
+  </body>
+  
+  </html>

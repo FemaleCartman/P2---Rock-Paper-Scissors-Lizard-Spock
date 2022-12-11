@@ -1,4 +1,60 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
 
-/* ------ */
+/* Variables css */
+:root {
+    /* Colors */
+    --color-darkText: #3b4363;
+    --color-scoreText: #2a46c0;
+    --color-headerOutline: #606e85;
+    --color-number: #565468;
+  
+    /* Font Weight */
+    --fw-simiBold: 600;
+    --fw-bold: 700;
+  }
+
+  body {
+    font-family: 'Oswald', sans-serif;
+    background: #170700;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    transition: background 0.4s linear;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .game__header-box {
+    max-width: 46.25rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+  }
+  
+  .game__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  
+    border: 0.188rem solid rgba(255, 255, 255, 0.29);
+    border-radius: 0.938rem;
+    padding: 1.125rem 1.5rem 1.125rem 2.063rem;
+  }
+  
+  .game__score-box {
+    text-align: center;
+    background: linear-gradient(0deg, #f3f3f3 0%, #ffffff 100%);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.188rem 0.188rem rgba(0, 0, 0, 0.196706);
+    padding: 1rem 3rem;
+  }
+  
+  .game__score {
+    font-size: 1rem;
+    line-height: 1.19;
+    letter-spacing: 0.156rem;
+    font-weight: var(--fw-simiBold);
+    color: var(--color-scoreText);
+  }
