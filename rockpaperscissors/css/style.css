@@ -58,3 +58,187 @@
     font-weight: var(--fw-simiBold);
     color: var(--color-scoreText);
   }
+
+  .game__number {
+    font-size: 4rem;
+    line-height: 1;
+    color: var(--color-number);
+  }
+
+  /* Number of fries container */
+
+.try-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.try-container p {
+  color: white;
+  font-size: 2rem;
+}
+
+/* Game */
+.game__initial {
+  max-width: 46.25rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  /* display: none; */
+}
+
+.game__initial-box {
+  background: url(rockpaperscissors\images\bg-pentagon.svg) no-repeat top 75px center;
+  width: 29.5rem;
+  height: 28.938rem;
+  display: grid;
+}
+
+.game__selection-box {
+  grid-area: 1/-1;
+  border: none;
+  background: none;
+  max-width: max-content;
+  height: max-content;
+}
+
+.game__selection-box:nth-child(1) {
+  grid-area: 1 / -1;
+  justify-self: center;
+}
+
+.game__selection-box:nth-child(2) {
+  grid-area: 1 / -1;
+  justify-self: start;
+  align-self: center;
+  transform: translateY(-2.188rem);
+}
+
+.game__selection-box:nth-child(3) {
+  grid-area: 1 / -1;
+  justify-self: end;
+  align-self: center;
+  transform: translateY(-2.188rem);
+}
+
+.game__selection-box:nth-child(4) {
+  grid-area: 1 / -1;
+  justify-self: start;
+  align-self: end;
+  transform: translateX(4.063rem);
+}
+
+.game__selection-box:nth-child(5) {
+  grid-area: 1 / -1;
+  justify-self: end;
+  align-self: end;
+  transform: translateX(-4.063rem);
+}
+
+.game__selection {
+  width: 9.063rem;
+  height: 9.25rem;
+  border-radius: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.game__selection::after {
+  content: "";
+  width: 9.063rem;
+  height: 8.813rem;
+  border-radius: 100%;
+  background: #4664f4;
+  position: absolute;
+  top: 0;
+}
+
+.game__selection:hover::before {
+  content: "";
+  width: 182px;
+  height: 188px;
+  border-radius: 100%;
+  opacity: 0.05;
+  background: #fff;
+  position: absolute;
+}
+
+.game__selection-oval {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6.938rem;
+  height: 6.938rem;
+  border-radius: 100%;
+  background: #babfd4;
+  position: relative;
+  z-index: 1;
+}
+
+.game__selection-oval::after {
+  content: "";
+  width: 6.938rem;
+  height: 6.563rem;
+  border-radius: inherit;
+  background: linear-gradient(0deg, #f3f3f3 0%, #dadada 98.34%);
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+}
+
+.game__scissors {
+  background: #6e3c10;
+}
+
+.game__scissors::after {
+  background: #c76c1b;
+}
+
+.game__spock {
+  background: #184958;
+}
+
+.game__spock::after {
+  background: #2d8dab;
+}
+
+.game__paper {
+  background: #152361;
+}
+
+.game__paper::after {
+  background: #2a45c2;
+}
+
+.game__lizard {
+  background: #321d5a;
+}
+
+.game__lizard::after {
+  background: #5f37a8;
+}
+
+.game__rock {
+  background: #490a18;
+}
+
+.game__rock::after {
+  background: #9d1634;
+}
+
+.game__selection-oval>img {
+  z-index: 58;
+}
+
+
+
+.game__start
+
+.game__selection-start
+
