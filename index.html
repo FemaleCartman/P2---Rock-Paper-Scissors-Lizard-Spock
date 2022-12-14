@@ -18,6 +18,13 @@
       <div class="game__header">
         <img class="game__header-img" src="rockpaperscissors\images\logo-bonus.svg"
           alt="soon written Rock, paper, scissors, lizard, spock">
+          <svg class="game__darkMode" viewBox="0 0 512 512">
+            <title>Sunny</title>
+            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"
+              d="M256 48v48M256 416v48M403.08 108.92l-33.94 33.94M142.86 369.14l-33.94 33.94M464 256h-48M96 256H48M403.08 403.08l-33.94-33.94M142.86 142.86l-33.94-33.94" />
+            <circle cx="256" cy="256" r="80" fill="none" stroke="currentColor" stroke-linecap="round"
+              stroke-miterlimit="10" stroke-width="32" />
+          </svg>
         <div class="game__score-box">
           <p class="game__score">score</p>
           <p class="game__number">0</p>
@@ -42,7 +49,7 @@
 
         <button type="submit" aria-label="spock" class="game__selection-box">
           <span class="game__selection game__spock" data-selection="spock">
-            <span class="game__selection-oval ">
+            <span class="game__selection-oval">
               <img class="game__initial-img" aria-hidden="true" src="rockpaperscissors\images\icon-spock.svg" alt="">
             </span>
           </span>
@@ -51,7 +58,7 @@
 
         <button type="submit" aria-label="paper" class="game__selection-box">
           <span class="game__selection game__paper" data-selection="paper">
-            <span class="game__selection-oval ">
+            <span class="game__selection-oval">
               <img class="game__initial-img" aria-hidden="true" src="rockpaperscissors\images\icon-paper.svg" alt="">
             </span>
           </span>
@@ -59,9 +66,8 @@
 
         <button type="submit" aria-label="lizard" class="game__selection-box">
           <span class="game__selection game__lizard" data-selection="lizard">
-            <span class="game__selection-oval ">
-              <img class="game__initial-img game__lizard-img" src="rockpaperscissors\images\icon-lizard.svg" aria-hidden="true"
-                alt="">
+            <span class="game__selection-oval">
+              <img class="game__initial-img game__lizard-img" src="rockpaperscissors\images\icon-lizard.svg" aria-hidden="true" alt="">
             </span>
           </span>
         </button>
@@ -76,11 +82,31 @@
       </div>
     </div>
   </main>
+  <div class="game__modal">
+    <h2 class="game__modal-title">
+      Rules
+    </h2>
+    <svg class="btn-close" width="20" height="20">
+      <path fill="#3B4262" fill-rule="evenodd"
+        d="M16.97 0l2.122 2.121-7.425 7.425 7.425 7.425-2.121 2.12-7.425-7.424-7.425 7.425L0 16.97l7.425-7.425L0 2.121 2.121 0l7.425 7.425L16.971 0z"
+        opacity=".25" />
+    </svg>
+    <img class="game__modal-img" src="rockpaperscissors\images\image-rules-bonus.svg" alt="">
+  </div>
+  <div class="btn-rules--box">
+    <a href="#" class="btn-modal">Rules</a>
+  </div>
+  <div class="overlay"></div>
 
-
- <footer>
- </footer>
-    <script src="rockpaperscissors\js\script.js"></script>
+  <footer>
+    <a href="https://github.com/FemaleCartman">
+      <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <title>GitHub</title>
+        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+       Github
+    </a>
+  </footer>
+  <script src="rockpaperscissors\js\script.js"></script>
   </body>
   
   </html>
