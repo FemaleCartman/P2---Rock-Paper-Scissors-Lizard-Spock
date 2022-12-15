@@ -639,5 +639,44 @@ body.dark-mode {
 }
 
 /*Footer*/
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5vh;
+  margin-top: auto;
+  padding: .5rem;
+  background-color: #000;
+}
+
+footer a{
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  gap: 0 .5rem;
+}
+
+footer a svg{
+  width: 20px;
+  fill: white;
+}
+
+body.dark-mode footer{
+  background-color: #FFD6CF;
+}
+
+body.dark-mode footer a{
+  color: #170700;
+}
+
+body.dark-mode footer a svg{
+  fill: black;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
 
 /*Interactive sizing for different platforms?*/
