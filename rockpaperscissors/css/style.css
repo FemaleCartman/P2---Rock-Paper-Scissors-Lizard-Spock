@@ -256,6 +256,11 @@ body.dark-mode {
   position: absolute;
 }
 
+.game__selection.dark-mode:hover::before {
+  background: #fff;
+  opacity: 0.2;
+}
+
 .game__selection-oval {
   display: flex;
   justify-content: center;
@@ -331,12 +336,223 @@ body.dark-mode {
   z-index: 58;
 }
 
+/*Game start */
+.game__start {
+  max-width: 45.125rem;
+  padding: 0 2rem;
+  height: 24.688rem;
+  margin: 4.5rem auto 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-.game__start
+.game__start-content {
+  width: 18.438rem;
+  height: 24.688rem;
+  text-align: center;
+  display: grid;
+  row-gap: 3.938rem;
+}
 
-.game__selection-start
+.game__start-title {
+  font-size: 1.5rem;
+  font-weight: var(--fw-bold);
+  line-height: 1.33;
+  letter-spacing: 0.188rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 0.188rem 0.188rem rgba(0, 0, 0, 0.2);
+}
 
+.game__selection-start {
+  cursor: default;
+  animation: animationTo 0.4s forwards;
+}
 
+.game__selection-start:hover::before {
+  display: none;
+}
+
+@keyframes animationTo {
+  0% {
+    transform: translateY(-18.75rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.game__big {
+  width: 18.313rem;
+  height: 18.75rem;
+  border-radius: 100%;
+  margin: 0;
+}
+
+.game__big::after {
+  width: inherit;
+  height: 18rem;
+  border-radius: 100%;
+}
+
+.game__big-oval {
+  width: 14.063rem;
+  height: 14.063rem;
+  border-radius: 100%;
+}
+
+.game__big-oval::after {
+  width: inherit;
+  height: 13.313rem;
+  border-radius: 100%;
+}
+
+.game__start-img {
+  width: 6.25rem;
+}
+
+.game__empty {
+  justify-self: center;
+  width: 14.063rem;
+  height: 14.063rem;
+  border-radius: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Game win*/
+.game__win {
+  max-width: 62.625rem;
+  padding: 0 2rem;
+  margin: 4.5rem auto 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.game__message-box {
+  z-index: 1;
+}
+
+.game__message {
+  font-size: 3.5rem;
+  line-height: 4.188rem;
+  font-weight: var(--fw-bold);
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.btn-again:link,
+.btn-again:visited {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.19;
+  letter-spacing: 0.156rem;
+  padding: 0.938rem 3.875rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  text-transform: uppercase;
+  transition: 0.4s ease-in-out;
+}
+
+.btn-again:hover,
+.btn-again:active {
+  color: #db2e4d;
+}
+
+.game__win-selection {
+  cursor: default;
+
+  animation: animationTo 0.4s forwards;
+}
+
+.game__win-selection:hover::before {
+  display: none;
+}
+
+.game__win-img {
+  width: 6.25rem;
+}
+
+.game__win-circle {
+  position: relative;
+}
+
+.circle-properties {
+  border-radius: 100%;
+  background: #fff;
+  opacity: 0.05;
+  position: absolute;
+}
+
+.circle-properties.dark-mode {
+  background: red;
+  opacity: 0.2;
+}
+
+.game__circleOne {
+  width: 26.5rem;
+  height: 26rem;
+  z-index: -1;
+  animation: animationCircleOne 2s;
+  animation-iteration-count: 3;
+}
+
+.game__circleTwo {
+  width: 35.25rem;
+  height: 34.625rem;
+  z-index: -2;
+  animation: animationCircleTwo 2s;
+  animation-iteration-count: 3;
+}
+
+.game__circleThree {
+  width: 45.625rem;
+  height: 44.875rem;
+  z-index: -3;
+  animation: animationCircleThree 2s;
+  animation-iteration-count: 3;
+}
+
+@keyframes animationCircleOne {
+  from {
+    width: 0;
+    height: 0;
+  }
+
+  to {
+    width: 26.5rem;
+    height: 26rem;
+  }
+}
+
+@keyframes animationCircleTwo {
+  from {
+    width: 0;
+    height: 0;
+  }
+
+  to {
+    width: 35.25rem;
+    height: 34.625rem;
+  }
+}
+
+@keyframes animationCircleThree {
+  from {
+    width: 0;
+    height: 0;
+  }
+
+  to {
+    width: 45.625rem;
+    height: 44.875rem;
+  }
+}
 
 /* Rules button */
 .btn-rules--box {
@@ -421,3 +637,7 @@ body.dark-mode {
 .overlay.open {
   display: inline-block;
 }
+
+/*Footer*/
+
+/*Interactive sizing for different platforms?*/
