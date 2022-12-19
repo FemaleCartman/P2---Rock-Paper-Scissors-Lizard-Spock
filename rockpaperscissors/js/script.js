@@ -279,7 +279,3 @@ dark.addEventListener("click", function (e) {
     sel.classList.toggle("dark-mode");
   });
 });
-
-
-
-// House pick image not showing!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
