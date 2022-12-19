@@ -194,7 +194,7 @@ function displayResult(message, circleOne, circleTwo, circleThree) {
     if (gameStart) {
       gameStart.remove();
     }
-    
+
 // HTML to show results on page
 const html = `
     <article class="game__win">
@@ -282,5 +282,4 @@ dark.addEventListener("click", function (e) {
 
 
 
-// House pick image not showing
-// Add responsiveness
+// House pick image not showing!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
