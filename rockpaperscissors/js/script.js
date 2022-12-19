@@ -78,7 +78,7 @@ const html = `<article class="game__start">
 
   let computerSelection = `<div class="game__selection game__${computerOption} game__big game__selection-start" data-selection="${computerOption}">
                   <div class="game__selection-oval game__big-oval">
-                    <img class="game__win-img" aria-hidden="true" src="./assets/images/icon-${computerOption}.svg" alt="">
+                    <img class="game__win-img" aria-hidden="true" src="./rockpaperscissors/images/icon-${computerOption}.svg" alt="">
                   </div>
                </div>`;
 
@@ -227,7 +227,7 @@ const html = `
         <div class="game__win-circle">
         <div class="game__selection game__${computerOption} game__big game__selection-start" data-selection="${computerOption}">
         <div class="game__selection-oval game__big-oval">
-          <img class="game__win-img" aria-hidden="true" src="./assets/images/icon-${computerOption}.svg" alt="">
+          <img class="game__win-img" aria-hidden="true" src="./rockpaperscissors/images/icon-${computerOption}.svg" alt="">
         </div>
         <span aria-hidden="true" class="${message === "You Lose" ? circleOne : ""
         } circle-properties">
