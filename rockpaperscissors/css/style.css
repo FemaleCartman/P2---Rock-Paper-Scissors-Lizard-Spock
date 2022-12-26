@@ -1,4 +1,3 @@
-/* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
 
 /* Variables css */
@@ -58,7 +57,7 @@ a {
 
 button,
 [type="button"] {
-  -webkit-appearance: button;
+  appearance: button;
   text-transform: none;
   overflow: visible;
   text-align: initial;
@@ -74,7 +73,6 @@ body {
   font-family: 'Oswald', sans-serif;
   background: #0f0005;
   line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
   position: relative;
   transition: background 0.4s linear;
   display: flex;
