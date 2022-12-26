@@ -4,12 +4,10 @@ A classic game of Rock, Paper, Scissors, Lizard, Spock made single-player where 
 
 <img
   src="rockpaperscissors\images\readmeimages\resposivewebpage.webp"
-  alt="Screenshot of how the program looks"
-  style="display: inline-block; margin: 0 auto; max-width: 600px">>
+  alt="Screenshot of how the program looks">
 <img
   src="rockpaperscissors\images\readmeimages\responsiveLM.webp"
-  alt="Screenshot of how the program looks in light mode"
-  style="display: inline-block; margin: 0 auto; max-width: 600px">>
+  alt="Screenshot of how the program looks in light mode">
 
 Access it live [here](https://github.com/FemaleCartman/P2---Rock-Paper-Scissors-Lizard-Spock)
 ## Table of Contents
@@ -24,27 +22,26 @@ Access it live [here](https://github.com/FemaleCartman/P2---Rock-Paper-Scissors-
 
 ## UX
 **Purpose**
-- To spend a little time with a game that you enjoy.
+- To spend some time playing a game that you enjoy.
 - To unwind for a little bit with something that works smoothly and doesn't require any advanced computer knowledge.
 - To play a classic game even if you don't have friends. 
 
 **Audience**
 - Anyone of the age where they can use a computer.  The game is simply designed and therefore suits most people. 
+
 ## Wireframes 
 <img
   src="rockpaperscissors\images\readmeimages\wireframedesktop.webp"
-  alt="Wireframe for desktop version"
-  style="display: inline-block; margin: 0 auto; max-width: 600px">
+  alt="Wireframe for desktop version">
 
-  <img
+<img
   src="rockpaperscissors\images\readmeimages\wireframetablet.webp"
-  alt="Wireframe for tablet version"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  alt="Wireframe for tablet version">
 
-  <img
+<img
   src="rockpaperscissors\images\readmeimages\wireframemobile.webp"
-  alt="Wireframe for tablet version"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  alt="Wireframe for tablet version">
+  
 ## Features
 
 **Existing Features**
@@ -99,29 +96,25 @@ Access it live [here](https://github.com/FemaleCartman/P2---Rock-Paper-Scissors-
 
 <img
   src="rockpaperscissors\images\readmeimages\htmlchecker.webp"
-  alt="HTML validator results"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  alt="HTML validator results">
 
 - CSS validator
 
 <img
   src="rockpaperscissors\images\readmeimages\cssvalidator.webp"
-  alt="CSS validator results"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  alt="CSS validator results">
 
 - JS Hint
 
 <img
   src="rockpaperscissors\images\readmeimages\jshint.webp"
-  alt="JSHint results"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  alt="JSHint results">
 
 - Chromes Lighthouse
 
 <img
   src="rockpaperscissors\images\readmeimages\lighthouse.webp"
-  alt="Lighthouse results"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  alt="Lighthouse results">
 
 
 - Manual testing
